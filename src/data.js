@@ -119,4 +119,9 @@ export const partners = [
     name: "Slice Card",
     logo: "https://res.cloudinary.com/slicepay/image/upload/v1653596191/website/sliceit/assests/press-page/slice-logo-marks.svg",
   },
+  {
+    id: 5,
+    name: "State Bank of India",
+    logo: "https://1000logos.net/wp-content/uploads/2018/03/SBI-Logo.png",
+  }
 ];

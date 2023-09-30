@@ -8,13 +8,18 @@ const Products = () => {
   return (
     <>
       <Navbar />
-      
+
       <div className="product-page">
         <div className="heading">
           <h1>Available Products</h1>
-          <Link to="/products/new" >
-          <button>Add New</button>
-          </Link>
+          <div className="button-container">
+            <Link to="/products/new">
+              <button>Add New</button>
+            </Link>
+            <Link to="/products/order">
+              <button>Order</button>
+            </Link>
+          </div>
         </div>
         <div className="product-list">
           {products.map((product) => (
