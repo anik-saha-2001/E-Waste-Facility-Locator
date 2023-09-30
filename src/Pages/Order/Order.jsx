@@ -82,7 +82,7 @@ const Order = () => {
               required
             />
           </div>
-          <button type="submit" onClick={()=>{alert("Order Olaced!")}}>Place Order</button>
+          <button type="submit" onClick={()=>{alert("Order Placed!")}}>Place Order</button>
         </form>
       </div>
 
