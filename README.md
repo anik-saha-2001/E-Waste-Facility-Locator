@@ -9,7 +9,6 @@
 - [Usage](#usage)
 - [Authentication](#authentication)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Overview
 
@@ -58,7 +57,3 @@ This project uses OAuth 2.0 for authentication. You can configure the authentica
 ## Contributing
 
 We welcome contributions! If you'd like to contribute to this project, please follow our [Contribution Guidelines](CONTRIBUTING.md).
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
