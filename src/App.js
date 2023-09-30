@@ -6,6 +6,7 @@ import Signup from "./Pages/Signup/Signup";
 import Blog from "./Pages/Blog/Blog";
 import Dashboard from "./Pages/Dashboard/Dashboard";
 import New from "./Pages/New/New"
+import Order from "./Pages/Order/Order";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
             <Route path="blog" element={<Blog />} />
             <Route path="dashboard" element={<Dashboard />} />
             <Route path="/products/new" element={<New />}/>
+            <Route path="/products/order" element={<Order />} />
           </Route>
         </Routes>
       </Router>
