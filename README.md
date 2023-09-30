@@ -15,7 +15,6 @@
 
 The E-Waste Facility Locator is a web application that helps users find the nearest e-waste collection and recycling facilities. It also provides educational resources on the harmful components of e-waste and their environmental impact. Users can earn credits by responsibly disposing of e-waste.
 
-![Screenshot](screenshot.jpg)
 
 ## Features
 
