@@ -1,0 +1,31 @@
+/* Dashboard.scss */
+
+.dashboard {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+  
+    h2 {
+      font-size: 24px;
+    }
+  
+    p {
+      font-size: 16px;
+      margin-top: 10px;
+    }
+  
+    .dashboard-user-info {
+      margin-bottom: 20px;
+    }
+  
+    .dashboard-credits {
+      h3 {
+        font-size: 20px;
+        margin-bottom: 10px;
+      }
+    }
+  }
+  
