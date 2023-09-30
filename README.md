@@ -9,6 +9,7 @@
 - [Usage](#usage)
 - [Authentication](#authentication)
 - [Contributing](#contributing)
+- [Wireframe](#wireframe)
 
 ## Overview
 
@@ -57,3 +58,7 @@ This project uses OAuth 2.0 for authentication. You can configure the authentica
 ## Contributing
 
 We welcome contributions! If you'd like to contribute to this project, please follow our [Contribution Guidelines](CONTRIBUTING.md).
+
+## Wireframe
+
+The link to our wireframe which shows us how our application is going to look like - https://www.canva.com/design/DAFv2Nzi-ec/tplhPwi9cY3_nH5Bew5BSQ/edit?utm_content=DAFv2Nzi-ec&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
