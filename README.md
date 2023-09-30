@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# E-Waste Facility Locator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of Contents
 
-## Available Scripts
+- [Overview](#overview)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Authentication](#authentication)
+- [Contributing](#contributing)
+- [License](#license)
 
-In the project directory, you can run:
+## Overview
 
-### `npm start`
+The E-Waste Facility Locator is a web application that helps users find the nearest e-waste collection and recycling facilities. It also provides educational resources on the harmful components of e-waste and their environmental impact. Users can earn credits by responsibly disposing of e-waste.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![Screenshot](screenshot.jpg)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+- **Locator:** Find the nearest e-waste collection and recycling facilities on a map.
+- **Educational Pop-ups:** Learn about the harmful components of e-waste and their effects on the environment and health.
+- **Credit System:** Earn credits by correctly disposing of e-waste, redeemable for rewards.
+- **User Authentication:** Secure user accounts with OAuth 2.0 authentication.
+- **Upload E-Waste:** Submit e-waste information and schedule pickups.
+- **Partnerships:** Highlight partnerships and sponsors.
+- **Blog:** Read articles on the effects of e-waste and recycling.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Tech Stack
 
-### `npm run build`
+- **Frontend:** React.js
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB
+- **Authentication:** Passport.js with OAuth 2.0
+- **Maps:** Google Maps API
+- **Styling:** Sass
+- **Icons:** Material-UI icons
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone this repository.
+2. Install Node.js and npm if not already installed.
+3. Navigate to the project directory.
+4. Run `npm install` to install dependencies for both the frontend and backend.
+5. Set up your MongoDB database and add the connection URI in the `.env` file.
+6. Configure OAuth 2.0 credentials for authentication.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Usage
 
-### `npm run eject`
+- Start the development server by running `npm start` in the root directory.
+- Access the website in your browser at `http://localhost:3000`.
+- Explore the different features, including locating facilities, reading educational content, and managing your e-waste.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Authentication
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This project uses OAuth 2.0 for authentication. You can configure the authentication provider (e.g., Google, Facebook) by following their respective documentation. Make sure to add your OAuth client credentials in the `.env` file.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Contributing
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+We welcome contributions! If you'd like to contribute to this project, please follow our [Contribution Guidelines](CONTRIBUTING.md).
 
-## Learn More
+## License
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the [MIT License](LICENSE).
